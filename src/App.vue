@@ -5,6 +5,7 @@
 
       <!-- NEW - add a route to the profile page -->
       <router-link v-if="$auth.isAuthenticated" to="/profile">|Profile</router-link>
+      <router-link v-if="$auth.isAuthenticated" to="/external-api">|External Api</router-link>
     </div>
     <router-view />
   </div>
