@@ -2,7 +2,7 @@ module.exports = {
   devServer: {
     proxy: {
       '^/api': {
-        target: 'https://90yd15q08j.execute-api.ap-southeast-2.amazonaws.com/Prod/',
+        target: 'https://xs1lpp63h7.execute-api.ap-southeast-2.amazonaws.com/Prod/',
         pathRewrite: { '^/api': '/' },
         logLevel: 'debug',
       }
